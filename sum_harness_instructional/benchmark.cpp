@@ -16,7 +16,6 @@
 
 extern void setup(int64_t N, uint64_t A[]);
 extern int64_t sum(int64_t N, uint64_t A[]);
-
 /* The benchmarking program */
 int main(int argc, char** argv) 
 {
@@ -29,7 +28,7 @@ int main(int argc, char** argv)
 
    int64_t t;
    int n_problems = problem_sizes.size();
-
+   const double billion = 1000000000;
    /* For each test size */
    for (int64_t n : problem_sizes) 
    {
@@ -37,19 +36,20 @@ int main(int argc, char** argv)
 
       // invoke user code to set up the problem
       setup(n, &A[0]);
-
       // insert your timer code here
        std::chrono::time_point<std::chrono::high_resolution_clock> start = std::chrono::high_resolution_clock::now();
       // invoke method to perform the sum
       t = sum(n, &A[0]);
+      
 
       // insert your end timer code here, and print out elapsed time for this problem size
        std::chrono::time_point<std::chrono::high_resolution_clock> end = std::chrono::high_resolution_clock::now();
        std::chrono::duration<double> timePassed = end - start;
 
-      std::cout << " MFLOP/s: " << ((n/1000000)/ timePassed.count()) << std::endl;
-      std::cout << " Memory Bandwidth Utilized: " << (((n * 8) / 1000000) / timePassed.count()) << std::endl; // 8 will be the amount of bytes that have been accessed.
-      std::cout << " Bandwidth Utilized: " << ((((n * 8) / 1000000000) / timePassed.count()) / 204.8) << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
+      std::cout << " MFLOP/s: " << ((n / 1000000) / timePassed.count()) << std::endl;
+     // std::cout << " Percent of Memory Bandwidth Utilized: " << (((n * 8) / 1000000) / timePassed.count()) << "%" << std::endl; // 8 will be the amount of bytes that have been accessed.
+      std::cout << " Percent of Memory Bandwidth Utilized: " << ((((n * 8) / billion) / timePassed.count()) / 204.8)  << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
+
      // std::cout << " Memory Latency: " << ((timePassed.count()) / ((n * 8) / 1000000 )) << std::endl;
      std::cout << " Memory Latency: " << ((timePassed.count())/ n )<< std::endl;
 

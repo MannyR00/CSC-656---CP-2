@@ -14,6 +14,11 @@ setup(int64_t N, uint64_t A[])
    printf(" inside sum_indirect problem_setup, N=%lld \n", N);
 }
 
+int64_t access(int64_t a){
+    a = 1;
+    return a;
+}
+
 int64_t
 sum(int64_t N, uint64_t A[])
 {

@@ -1,0 +1,6 @@
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_direct.dir
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_vector.dir
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_indirect.dir
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/rebuild_cache.dir

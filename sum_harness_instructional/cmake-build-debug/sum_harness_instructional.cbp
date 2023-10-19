@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sum_harness_instructional"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_direct">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_direct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_direct"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_direct/fast">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_direct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_direct/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_vector">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_vector"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_vector/fast">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_vector/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_indirect">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_indirect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_indirect"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_indirect/fast">
+				<Option output="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/sum_indirect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_indirect/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/benchmark.cpp">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.cpp.o">
+			<Option target="sum_direct"/>
+			<Option target="sum_vector"/>
+			<Option target="sum_indirect"/>
+		</Unit>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/sum_direct.cpp">
+			<Option target="sum_direct"/>
+		</Unit>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/sum_indirect.cpp">
+			<Option target="sum_indirect"/>
+		</Unit>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/sum_vector.cpp">
+			<Option target="sum_vector"/>
+		</Unit>
+		<Unit filename="/Users/luisramirezjr./CSC-656---CP-2/sum_harness_instructional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
