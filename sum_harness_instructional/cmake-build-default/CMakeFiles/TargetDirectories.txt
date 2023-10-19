@@ -1,0 +1,6 @@
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/benchmark.dir
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/sum_direct.dir
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/sum_vector.dir
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/sum_indirect.dir
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/edit_cache.dir
+/Users/luisramirezjr./sum_harness_instructional/cmake-build-default/CMakeFiles/rebuild_cache.dir
