@@ -46,11 +46,7 @@ int main(int argc, char** argv)
        std::chrono::duration<double> timePassed = end - start;
 
       std::cout << " MFLOP/s: " << ((n / 1000000) / timePassed.count()) << std::endl;
-     // std::cout << " Percent of Memory Bandwidth Utilized: " << (((n * 8) / 1000000) / timePassed.count()) << "%" << std::endl; // 8 will be the amount of bytes that have been accessed.
       std::cout << " Percent of Memory Bandwidth Utilized: " << ((((n * 8) / 1000000000) / timePassed.count()) / 204.8)  << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
-
-     // std::cout << " Memory Latency: " << ((timePassed.count()) / ((n * 8) / 1000000 )) << std::endl;
-     // std::cout << " Memory Latency: " << ((timePassed.count())/ n )<< std::endl;
 
       printf(" Sum result = %lld \n",t);
       printf(" Elapsed time: %f seconds\n \n", timePassed.count());
