@@ -22,7 +22,6 @@ sum(int64_t N, uint64_t A[])
     for (int i = 0; i < N; i++){
         sum += i;
     }
-//    std::cout << " Sum = " << sum << std::endl;
 
     return sum;
 }
