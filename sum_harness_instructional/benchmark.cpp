@@ -19,7 +19,7 @@ extern int64_t sum(int64_t N, uint64_t A[]);
 /* The benchmarking program */
 int main(int argc, char** argv) 
 {
-   std::cout << std::fixed << std::setprecision(2);
+   std::cout << std::fixed << std::setprecision(12);
 
 #define MAX_PROBLEM_SIZE 1 << 28  //  256M
    std::vector<int64_t> problem_sizes{ MAX_PROBLEM_SIZE >> 5, MAX_PROBLEM_SIZE >> 4, MAX_PROBLEM_SIZE >> 3, MAX_PROBLEM_SIZE >> 2, MAX_PROBLEM_SIZE >> 1, MAX_PROBLEM_SIZE};
@@ -47,7 +47,8 @@ int main(int argc, char** argv)
 
       std::cout << " MFLOP/s: " << ((n / 1000000) / timePassed.count()) << std::endl;
       std::cout << " Percent of Memory Bandwidth Utilized: " << ((((n * 8) / 1000000000) / timePassed.count()) / 204.8)  << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
-      std::cout << " Memory Latency: " << (timePassed.count()/n) << std::endl;
+      std::cout << " Memory Latency: " << (timePassed.count()/ A[5]) << std::endl;
+     // std::cout << A[5] << std::endl;
       printf(" Sum result = %lld \n",t);
       printf(" Elapsed time: %f seconds\n \n", timePassed.count());
    }
