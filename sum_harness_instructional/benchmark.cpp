@@ -47,8 +47,11 @@ int main(int argc, char** argv)
 
       std::cout << " MFLOP/s: " << ((n / 1000000) / timePassed.count()) << std::endl;
       std::cout << " Percent of Memory Bandwidth Utilized: " << ((((n * 8) / 1000000000) / timePassed.count()) / 204.8)  << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
-      std::cout << " Memory Latency: " << (timePassed.count()/ A[5]) << std::endl;
-     // std::cout << A[5] << std::endl;
+      if(n == 0){
+          std::cout << " Memory Latency: " << "None" << std::endl;
+      } else
+      std::cout << " Memory Latency: " << (timePassed.count()/ n) << std::endl;
+
       printf(" Sum result = %lld \n",t);
       printf(" Elapsed time: %f seconds\n \n", timePassed.count());
    }

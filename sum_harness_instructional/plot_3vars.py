@@ -41,6 +41,8 @@ xlocs = [i for i in range(len(problem_sizes))]
 
 plt.xticks(xlocs, problem_sizes)
 
+
+
 # here, we are plotting the raw values read from the input .csv file, which
 # we interpret as being "time" that maps directly to the y-axis.
 #
@@ -57,6 +59,30 @@ plt.plot(code3_time, "g-^")
 
 plt.xlabel("Problem Sizes")
 plt.ylabel("runtime")
+
+varNames = [var_names[1], var_names[2], var_names[3]]
+plt.legend(varNames, loc="best")
+
+plt.grid(axis='both')
+
+plt.show()
+
+#======== Memory Latency ========#
+
+plt.subplot(2, 2, 1)
+plt.title("Memory Latency Comparison")
+
+xlocs = [i for i in range(len(problem_sizes))]
+
+plt.xticks(xlocs, problem_sizes)
+
+plt.plot(code1_time, "r-o")
+plt.plot(code2_time, "b-x")
+plt.plot(code3_time, "g-^")
+
+
+plt.xlabel("Problem Sizes")
+plt.ylabel("MFLOPs runtime")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
