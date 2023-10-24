@@ -1,6 +1,6 @@
 """
-
 E. Wes Bethel, Copyright (C) 2022
+
 
 October 2022
 

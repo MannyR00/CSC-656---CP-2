@@ -13,7 +13,7 @@ setup(int64_t N, uint64_t A[])
 {
    printf(" inside sum_indirect problem_setup, N=%lld \n", N);
     for (int j = 0; j < N-1; j++) {
-        A[j] = rand() % N; // Generate random numbers and store in array A
+        A[j] = lrand48() % N; // Generate random numbers and store in array A
     }
 }
 

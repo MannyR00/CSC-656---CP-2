@@ -15,7 +15,6 @@ Dependencies: matplotlib, pandas modules
 Assumptions: developed and tested using Python version 3.8.8 on macOS 11.6
 
 """
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
