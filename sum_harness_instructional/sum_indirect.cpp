@@ -23,7 +23,6 @@ sum(int64_t N, uint64_t A[])
     int64_t index = A[0];
     int64_t sum = 0;
     printf(" inside sum_vector perform_sum, N=%lld \n", N);
-    std::cout << A[1] << std::endl;
 
     for (int i = 0; i < N; i++) {
         sum += A[index];  // Adds A[index] to the accumulator
