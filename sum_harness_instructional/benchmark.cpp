@@ -50,7 +50,7 @@ int main(int argc, char** argv)
       if( A[1] == 0)
           std::cout << " Memory Latency: " << "None" << std::endl;
        else
-          std::cout << " Memory Latency: " << (timePassed.count() / n) << std::endl;
+          std::cout << " Memory Latency: " << ((timePassed.count() / n) * 1000000000 )  << std::endl;
 
 
       printf(" Sum result = %lld \n",t);
