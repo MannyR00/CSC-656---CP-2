@@ -50,13 +50,12 @@ int main(int argc, char** argv)
       if( A[1] == 0)
           std::cout << " Memory Latency: " << "None" << std::endl;
        else
-          std::cout << " Memory Latency: " << (timePassed.count()/ n) << std::endl;
-
-
+          std::cout << " Memory Latency: " << (timePassed.count() / n) << std::endl;
 
 
       printf(" Sum result = %lld \n",t);
       printf(" Elapsed time: %f seconds\n \n", timePassed.count());
+
    }
    return 0; // end loop over problem sizes
 }
