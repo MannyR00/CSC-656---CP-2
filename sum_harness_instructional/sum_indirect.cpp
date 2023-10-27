@@ -1,3 +1,12 @@
+//
+// 
+//
+// Luis Ramirez
+// 656 Section 1, Coding Project #2
+// 10/15/23
+// 1-sentence description here: this code gives us our total sum in vector form.
+//
+
 #include <algorithm>
 #include <chrono>
 #include <iomanip>
@@ -26,7 +35,7 @@ sum(int64_t N, uint64_t A[])
 
     for (int i = 0; i < N; i++) {
         sum += A[index];  // Adds A[index] to the accumulator
-        index = A[index];  // This will assign index ~ A[index]
+        index = A[index];  // This will assign index to A[index]
     }
 
     return sum;

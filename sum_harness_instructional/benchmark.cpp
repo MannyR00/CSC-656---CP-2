@@ -1,10 +1,11 @@
 //
 // (C) 2022-2023, E. Wes Bethel
-// benchmark-* harness for running different versions of the sum study
-//    over different problem sizes
 //
-// usage: no command line arguments
-// set problem sizes, block sizes in the code below
+// Luis Ramirez
+// 656 Section 1, Coding Project #2
+// 10/15/23
+// 1-sentence description here: harness for running different versions of the sum study over different problem sizes
+//
 
 #include <algorithm>
 #include <chrono>
@@ -47,7 +48,7 @@ int main(int argc, char** argv)
 
       std::cout << " MFLOP/s: " << ((n / 1000000) / timePassed.count()) << std::endl;
       std::cout << " Percent of Memory Bandwidth Utilized: " << ((((n * 8) / 1000000000) / timePassed.count()) / 204.8)  << "%" << std::endl; // 204.8 comes from the NERSC architecture page going over CPU nodes.
-      if( A[1] == 0)
+      if(A[1] == 0)
           std::cout << " Memory Latency: " << "None" << std::endl;
        else
           std::cout << " Memory Latency: " << ((timePassed.count() / n) * 1000000000 )  << std::endl;

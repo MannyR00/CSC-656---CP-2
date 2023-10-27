@@ -1,3 +1,12 @@
+//
+//
+//
+// Luis Ramirez
+// 656 Section 1, Coding Project #2
+// 10/15/23
+// 1-sentence description here: this code gives us our total sum in direct form.
+//
+
 #include <algorithm>
 #include <chrono>
 #include <iomanip>
